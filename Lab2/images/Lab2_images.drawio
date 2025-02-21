@@ -22,7 +22,7 @@
           <mxGeometry x="304" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wlU8_31wGZty7XJM7j6O-11" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Mearly State Machine&lt;br&gt;IDIE: 0 S1: 1&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;S2: 10&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;S3: 101&amp;nbsp;&lt;/span&gt;&lt;/i&gt;&lt;i style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;S4: 1011 S5: 10111&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="434" y="100" width="576" height="90" as="geometry" />
+          <mxGeometry x="310" y="110" width="576" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wlU8_31wGZty7XJM7j6O-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wlU8_31wGZty7XJM7j6O-1" target="wlU8_31wGZty7XJM7j6O-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
