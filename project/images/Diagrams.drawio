@@ -509,8 +509,8 @@
         <mxCell id="W_hojZ-FTwUWK5cthhx1-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;event&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="114" y="101" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W_hojZ-FTwUWK5cthhx1-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Action&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="114" y="145" width="60" height="30" as="geometry" />
+        <mxCell id="W_hojZ-FTwUWK5cthhx1-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;action&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="142" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_hojZ-FTwUWK5cthhx1-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="fZm2oLhEEEx-4h4OSNYs-1" target="fZm2oLhEEEx-4h4OSNYs-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
