@@ -1,5 +1,5 @@
-output = "../run/output_updated.txt"
-ref_output = "../run/output_ref.txt"
+output = "../run/output_ref.txt"
+ref_output = "../run/output_updated.txt"
 
 count = 0
 with open(output, "r", encoding="utf-8") as output_file, open(ref_output, "r", encoding="utf-8") as ref_output_file:
