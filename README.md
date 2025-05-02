@@ -14,7 +14,7 @@ Two blocks: one is a sequential logic describing the transition from next state 
 
 Since the DSP48E12 we are using supports 25×18-bit multiplications, we concatenate two operands into one longer-bit operand, to expediate the multiplication with DSP.
 
-## Lab4: a 4-tap FIR with Distributed Arithmetic
+## Lab4: A 4-tap FIR with Distributed Arithmetic
 
 Distributed Arithmetic (DA) is an important FPGA technology and is extensively used in computing the sum of products without using a multiplier. A FIR design with a given LUT/ROM is one of the important applications.
 
