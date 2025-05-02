@@ -1,4 +1,4 @@
-# ECE6276
+# ECE6276 DSP Hardware Systems Design
 
 This is the Lab and Project resources for ECE6276 Digital Signal Processor Hardware Design
 
