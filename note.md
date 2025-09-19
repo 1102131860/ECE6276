@@ -221,47 +221,6 @@ $$t_{pd} = t_{gp} + (N - 1)t_{carry} + t_{sum}$$
 
 , where $t_{gp}$ is time comsuming at *Setup* unit, which is parallel.
 
-### Generate, Delete and Propagation
-
-|   A   |   B   |   $\text{C}_{\text{in}}$    |   $\text{C}_{\text{out}}$   |   S   |   G   |   D   |   P   |
-|-------|-------|-----------------------------|-----------------------------|-------|-------|-------|-------|
-|   0   |   0   |           0                 |           0                 |   0   |   0   |   1   |   0   |
-|   0   |   0   |           1                 |           0                 |   1   |   0   |   1   |   0   |
-|   0   |   1   |           0                 |           0                 |   1   |   0   |   0   |   1   |
-|   0   |   1   |           1                 |           1                 |   0   |   0   |   0   |   1   |
-|   1   |   0   |           0                 |           0                 |   1   |   0   |   0   |   1   |
-|   1   |   0   |           1                 |           1                 |   0   |   0   |   0   |   1   |
-|   1   |   1   |           0                 |           1                 |   0   |   1   |   0   |   0   |
-|   1   |   1   |           1                 |           1                 |   1   |   1   |   0   |   0   |
-
-Generate:
-
-$$ G = AB$$
-
-Delete:
-
-$$ D = \bar{A} \bar{B}$$
-
-Propagate:
-
-$$ P = A ⊕ B$$
-
-Based on the *generate* and *propagate*:
-
-$$C_{out} = G + PC_{in}$$
-
-$$S = P ⊕ C$$
-
-When $A = B = 1$, *generate*, $G = 1$, $C_{out} = 1$
-
-When $A = B = 0$, *delete*, $D = 1$, $C_{out} = 0$
-
-When $A \neq B$, *progate*, $P = 1$, $C_{out}$ depends on $C_{in}$
-
-**Machester-Carry Chain**
-
-![alt text](./images/image_7.png)
-
 ### Ripple-carry Bypass Adder
 
 The ripple-carry adder (also called, *ripple-carry skip adder*) can be optimized to result in the *Ripple-carry Bypass adder*.
@@ -364,6 +323,47 @@ The time complex is $$O(\sqrt{2N})$$
 **Disadvantages of Ripple-Carry adders**
 
 - the dependence of the sum and *the carry bits of any stage on the carry bit of preceding adder*.
+
+### Generate, Delete and Propagation
+
+|   A   |   B   |   $\text{C}_{\text{in}}$    |   $\text{C}_{\text{out}}$   |   S   |   G   |   D   |   P   |
+|-------|-------|-----------------------------|-----------------------------|-------|-------|-------|-------|
+|   0   |   0   |           0                 |           0                 |   0   |   0   |   1   |   0   |
+|   0   |   0   |           1                 |           0                 |   1   |   0   |   1   |   0   |
+|   0   |   1   |           0                 |           0                 |   1   |   0   |   0   |   1   |
+|   0   |   1   |           1                 |           1                 |   0   |   0   |   0   |   1   |
+|   1   |   0   |           0                 |           0                 |   1   |   0   |   0   |   1   |
+|   1   |   0   |           1                 |           1                 |   0   |   0   |   0   |   1   |
+|   1   |   1   |           0                 |           1                 |   0   |   1   |   0   |   0   |
+|   1   |   1   |           1                 |           1                 |   1   |   1   |   0   |   0   |
+
+Generate:
+
+$$ G = AB$$
+
+Delete:
+
+$$ D = \bar{A} \bar{B}$$
+
+Propagate:
+
+$$ P = A ⊕ B$$
+
+Based on the *generate* and *propagate*:
+
+$$C_{out} = G + PC_{in}$$
+
+$$S = P ⊕ C$$
+
+When $A = B = 1$, *generate*, $G = 1$, $C_{out} = 1$
+
+When $A = B = 0$, *delete*, $D = 1$, $C_{out} = 0$
+
+When $A \neq B$, *progate*, $P = 1$, $C_{out}$ depends on $C_{in}$
+
+**Machester-Carry Chain**
+
+![alt text](./images/image_7.png)
 
 ### Basic Idea
 
